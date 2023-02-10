@@ -34,12 +34,12 @@ Additional details:
 
 ### Development Steps
 1. Read the data from the database where status != 0. Group by the product_id and order by the product_image.sort_order.
-2. Create a Product class. 
+2. Create a Product class. This makes it easier to access the product fields.
 3. Create a link to the product by appending the product.product_id to https://butopea.com/p
 4. Create image link by appending the product_image.image to https://butopea.com/
-5. Create additional image link. 
+5. Create additional image link by appending the alt_image to https://butopea.com/
 6. Check item availability. Item is available if quantitity > 0. 
-7. Change the currency to forints.
+7. Change the currency to forints by concatenating the currency 'HUF' to the price. 
 8. Set all products conditions to new.
 9. Loop through the data. 
 10. Generate an XML file.
