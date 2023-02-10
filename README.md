@@ -32,6 +32,20 @@ Additional details:
 * XML
 * SQLite
 
+### Development Steps
+1. Read the data from the database where status != 0. Group by the product_id and order by the product_image.sort_order.
+2. Create a Product class. 
+3. Create a link to the product by appending the product.product_id to https://butopea.com/p
+4. Create image link by appending the product_image.image to https://butopea.com/
+5. Create additional image link. 
+6. Check item availability. Item is available if quantitity > 0. 
+7. Change the currency to forints.
+8. Set all products conditions to new.
+9. Loop through the data. 
+10. Generate an XML file.
+11. Close the database connection. 
+   
+
 ### Project Setup
 1. Clone this repository.
 2. `cd` into the cloned repository.
@@ -43,3 +57,4 @@ florencekotohoyoh@gmail.com
 
 ### Author
 [Florence Kotohoyoh](https://github.com/Flokots)
+

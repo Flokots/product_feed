@@ -59,15 +59,10 @@ for item in items:
         ' ' + prod.price_currency
     ET.SubElement(product, 'brand').text = prod.brand
     ET.SubElement(product, 'condition').text = prod.condition
-    
+
 # 8. Generate xml file
 tree = ET.ElementTree(product_feed)
 tree.write('feed.xml', encoding='UTF-8', xml_declaration=True)
-
-  
-
-
-    
 
 
 # Close database connection

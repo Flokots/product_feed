@@ -1,5 +1,7 @@
+# Create a Product class
+
 class Product:
-    """ A Product Class"""
+    """ The Product Class """
 
     def __init__(self, id, quantity, title, description, image, alt_image, sort_order, price, brand):
         self.id = id
@@ -27,7 +29,7 @@ class Product:
     def additional_image_link(self):
         return 'https://butopea.com/{}'.format(self.alt_image)
 
-    # 5.  Check item availability. Item is available if quantity > 0. 
+    # 5.  Check item availability. Item is available if quantity > 0.
     @property
     def availability(self):
         if int(self.quantity) > 0:
@@ -46,7 +48,6 @@ class Product:
     @property
     def condition(self):
         return 'new'
-   
 
     def __repr__(self):
         return "'{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}'".format(self.id, self.title, self.description, self.image, self.alt_image, self.sort_order, self.quantity, self.price, self.brand, self.link, self.image_link, self.additional_image_link, self.availability, self.condition, self.price_currency)
