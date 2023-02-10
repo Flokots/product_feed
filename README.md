@@ -52,9 +52,10 @@ Additional details:
 3. Run `python3.11 product_feed.py`.
 4. Have fun exploring!
 
+### Author
+[Florence Kotohoyoh](https://github.com/Flokots)
+
 ### Contact
 florencekotohoyoh@gmail.com
 
-### Author
-[Florence Kotohoyoh](https://github.com/Flokots)
 
