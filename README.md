@@ -3,15 +3,10 @@ A product feed is an essential medium for exporting and syncing the product cata
 
 This program creates an XML product feed according to the [Google Merchant product data specifications](https://support.google.com/merchants/answer/7052112).
 
-### Demo
-
-### Author
-[Florence Kotohoyoh](https://github.com/Flokots)
-
 # Tasks
 Generate a file: [feed.xml](./feed.xml), including the following fields: 
-* ID [id]
-* Title [title]
+* ID [id]  
+* Title [title] 
 * Description [description]
 * Link [link]
 * Image link [image_link]
@@ -33,12 +28,18 @@ Additional details:
   * It's fine if the actual links go to the not found page –– this is test data.
   
 ### Technologies and Dependencies Used
-* Python
+* Python3.11
 * XML
 * SQLite
 
 ### Project Setup
-
+1. Clone this repository.
+2. `cd` into the cloned repository.
+3. Run `python3.11 product_feed.py`.
+4. Have fun exploring!
 
 ### Contact
 florencekotohoyoh@gmail.com
+
+### Author
+[Florence Kotohoyoh](https://github.com/Flokots)
